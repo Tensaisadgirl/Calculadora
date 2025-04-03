@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link do CSS -->
+</head>
+<body>
+
+    <div class="calculadora">
+        <div id="display">0</div>
+        
+        <div class="botoes">
+            <button class="buttonx" onclick="myclick('7')">7</button>
+            <button class="buttonx" onclick="myclick('8')">8</button>
+            <button class="buttonx" onclick="myclick('9')">9</button>
+            <button class="buttono" onclick="divis()">÷</button>
+            
+            <button class="buttonx" onclick="myclick('4')">4</button>
+            <button class="buttonx" onclick="myclick('5')">5</button>
+            <button class="buttonx" onclick="myclick('6')">6</button>
+            <button class="buttono" onclick="multi()">×</button>
+
+            <button class="buttonx" onclick="myclick('1')">1</button>
+            <button class="buttonx" onclick="myclick('2')">2</button>
+            <button class="buttonx" onclick="myclick('3')">3</button>
+            <button class="buttono" onclick="subtrai()">−</button>
+
+            <button class="buttonx" onclick="mydecimal()">.</button>
+            <button class="buttonx" onclick="myclick('0')">0</button>
+            <button class="buttonx" onclick="mylimpa()">C</button>
+            <button class="buttono" onclick="soma()">+</button>
+
+           
+            <button class="buttony" onclick="button>backspace()">←</button>
+            <button class="buttony" onclick="mudasinal()">±</button>
+            <button class="buttony" onclick="igual()">=</button>
+            <button class="buttono" onclick="porcentagem()">%</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link do JavaScript -->
+</body>
+</html>
