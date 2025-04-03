@@ -20,7 +20,8 @@ CSS
 JavaScript
 
 📸 Prévia
-![image](https://github.com/user-attachments/assets/2f27f200-defd-48ac-bd96-461151a03bf1)
+![image](https://github.com/user-attachments/assets/b5ec66ae-4b44-4c90-94b0-4e3059614bc9)
+
 
 🔧 Como Usar
 Clone o repositório:
